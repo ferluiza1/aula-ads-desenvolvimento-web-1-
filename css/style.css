@@ -1,14 +1,54 @@
 body { 
-    background-color: rgb(76, 76, 190);
+    background-color: rgb(141, 180, 180);
 }
 
 
 
 h1 {
-    color:blue;
+    color:rgb(241, 12, 12);
      font: size 11px;
 }
 
 span {
     color:brown
+}
+
+
+#header {
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar {
+    height: 400px;
+    width: 120px;
+    background-color: rgb(16, 216, 133);
+}
+
+#content{
+        height: 400px;
+        
+        background-color: rgb(163, 216, 16);
+}
+
+#footer{
+         height: 150px;
+         background-color: rgb(26, 24, 24);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color:white
+}
+
+.flex-row {
+    display: flex;
+}
+
+#menu{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
 }
