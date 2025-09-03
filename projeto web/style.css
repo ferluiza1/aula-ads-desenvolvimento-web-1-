@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #3f3f3f;
+    color: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+header {
+    height: 90px;
+    background-color: black;
+    margin-bottom: 5%;
+}
+header .wrapper .flexrow{
+    align-items: center;
+}
+
+header .wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    padding: 32px 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+header nav ul li a:hover, .active{
+    border-bottom: 2px solid  rgb(25, 27, 85);
+    color: rgb(25, 27, 85);
+}
+
+/* header nav{
+    margin: 0 0 0 auto;
+} */
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+header nav ul li button {
+    background: rgb(25, 27, 85);
+    color: #FFF;
+    border-radius: 15px;
+    padding: 10px 15px;
+    border: none;
+    margin: 0 0 0 15px;
+    cursor: pointer;
+}
+
+.flexrow{
+    display: flex;
+    gap: 20px;
+}
+aside {
+    width: 200px;
+    min-height: calc(100vh - 210px);
+    background-color: bisque;
+}
+main {
+    width: 100%;
+    min-height: calc(100vh - 210px);
+}
+footer {
+    height: 120px;
+    background-color: black;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+    flex-wrap: wrap;
+
+    
+}
+
+
+.card{
+    background-color:  rgb(25, 27, 85);
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px ;
+    font-size: 0.75rem;
+    gap: 9px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    position: relative;
+    height: auto;
+    
+    
+    
+}
+
+.parte1 {
+    width: auto;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+.valor{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 9%;
+    gap: 3px;
+    align-items: center;
+    padding-left: 23%;
+    width: 30vh;
+    background-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.palavra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: rgb(33, 33, 33);
+    height: 50px;
+    align-items: center;
+   
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 30vw;
+    height: auto;
+
+}
+
+.desc {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 0.75rem;
+    color: rgb(231, 230, 230);
+    padding-top: 9%;
+   
+   
+  
+    
+    
+}
+
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: auto;
+
+}
+
+
+.modal{
+    background: #242424c3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+   
+}
+
+
+.modal main {
+    background: #ffffff;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    
+}
+
+
+.modal main h1{
+    color: #000;
+    margin: 0;
+}
+
+
+.modal main label{
+    color: #000000;
+    margin: 10px 0 0 0;
+}
+
+.modal main form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+}
+
+.modal main form input[type="text"], .modal main form select{
+    padding: 5px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+
+.modal main form input[type="submit"], .modal main button{
+    background: rgb(25, 27, 85);
+    border-radius: 15px;
+    padding: 10px 15px;
+    border: none;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    color: #FFF;
+}
+
+
+
